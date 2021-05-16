@@ -1,0 +1,10 @@
+<p>Welcome {{username}} !!</p>
+
+<div style="display: flex;">
+
+    <input type="text" pInputText [(ngModel)]="search"> 
+    <!-- <span class="p-ml-2">{{value1}}</span> -->
+    
+    <button pButton type="button" label="Search" (click)="onSearch()" [disabled]="search==='' "></button>
+    
+</div>

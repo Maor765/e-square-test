@@ -1,0 +1,9 @@
+<h5>Welcom</h5>
+<div>
+
+    <input type="text" pInputText [(ngModel)]="value1"> 
+    <!-- <span class="p-ml-2">{{value1}}</span> -->
+    
+    <button pButton type="button" label="Login" (click)="login()" [disabled]="value1==='' "></button>
+    
+</div>

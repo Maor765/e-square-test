@@ -1,0 +1,683 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 534,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "UQIFAAAAQAAJ",
+        "etag": "HkAyi4/CwgQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/UQIFAAAAQAAJ",
+        "volumeInfo": {
+          "title": "The Presbyterian review. Managing eds.: A.A. Hodge, C.A. Briggs",
+          "authors": [
+            "Presbyterian review association"
+          ],
+          "publishedDate": "1885",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "OXFORD:555025028"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.5.5.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=UQIFAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=UQIFAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=UQIFAAAAQAAJ&pg=PA609&dq=aa&hl=&cd=1&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=UQIFAAAAQAAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UQIFAAAAQAAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=UQIFAAAAQAAJ&rdid=book-UQIFAAAAQAAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/The_Presbyterian_review_Managing_eds_A_A.epub?id=UQIFAAAAQAAJ&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "downloadLink": "http://books.google.com/books/download/The_Presbyterian_review_Managing_eds_A_A.pdf?id=UQIFAAAAQAAJ&hl=&output=pdf&sig=ACfU3U1qLZcat2pbVxrsfJbtE2pMdNj22Q&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=UQIFAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "( v ) There is the creation of a new heaven and a new earth , ( W ) also a new \u003cbr\u003e\nJerusalem , ( x ) in which there is no more weeping and crying ; ( y ) whose walls \u003cbr\u003e\nalso are precious stones ; ( 3 ) whose gates are not shut day and night ; ( \u003cb\u003eaa\u003c/b\u003e ) the\u003cbr\u003e\n&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "w8osYd59qJ4C",
+        "etag": "blRLb2shayw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/w8osYd59qJ4C",
+        "volumeInfo": {
+          "title": "Index Librorum Prohibitorum ... Pii septimi jussu editus [by A. A. Bardani. Preceded by “Regulæ indicis; Benedicti XIV. constitutio; Decreta, etc.] (Appendix ... in qua recensentur libri proscripti ... usque ad ... 1821.).",
+          "authors": [
+            "Catholic Church"
+          ],
+          "publishedDate": "1819",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "BL:A0023640940"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.2.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=w8osYd59qJ4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=w8osYd59qJ4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=w8osYd59qJ4C&pg=PR21&dq=aa&hl=&cd=2&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=w8osYd59qJ4C&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=w8osYd59qJ4C"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=w8osYd59qJ4C&rdid=book-w8osYd59qJ4C&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Index_Librorum_Prohibitorum_Pii_septimi.epub?id=w8osYd59qJ4C&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=w8osYd59qJ4C&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "UvErAQAAMAAJ",
+        "etag": "hAKT8LMf13M",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/UvErAQAAMAAJ",
+        "volumeInfo": {
+          "title": "Annual Report of Captain A.A. Humphreys, Topographical Engineer, in Charge of Office of Explorations and Surveys, War Department, December, 1858",
+          "authors": [
+            "United States. Office of Explorations and Surveys"
+          ],
+          "publishedDate": "1859",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "CHI:64471201"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 173,
+          "printType": "BOOK",
+          "categories": [
+            "Botany"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=UvErAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=UvErAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=UvErAQAAMAAJ&printsec=frontcover&dq=aa&hl=&cd=3&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=UvErAQAAMAAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UvErAQAAMAAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=UvErAQAAMAAJ&rdid=book-UvErAQAAMAAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Annual_Report_of_Captain_A_A_Humphreys_T.epub?id=UvErAQAAMAAJ&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "downloadLink": "http://books.google.com/books/download/Annual_Report_of_Captain_A_A_Humphreys_T.pdf?id=UvErAQAAMAAJ&hl=&output=pdf&sig=ACfU3U1Gm7HZQearjclBmq_HKVyo56xbhw&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=UvErAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "t7QYsBZF3u0C",
+        "etag": "aCFcbg8aPG8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/t7QYsBZF3u0C",
+        "volumeInfo": {
+          "title": "Catalog of Copyright Entries",
+          "subtitle": "Pamphlets, leaflets, contributions to newspapers or periodicals, etc., maps",
+          "publishedDate": "1936",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UTEXAS:059172119878240"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "categories": [
+            "American literature"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.1.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=t7QYsBZF3u0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=t7QYsBZF3u0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=t7QYsBZF3u0C&pg=PA698&dq=aa&hl=&cd=4&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=t7QYsBZF3u0C&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=t7QYsBZF3u0C"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=t7QYsBZF3u0C&rdid=book-t7QYsBZF3u0C&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Catalog_of_Copyright_Entries.epub?id=t7QYsBZF3u0C&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=t7QYsBZF3u0C&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "31 ; \u003cb\u003eAA\u003c/b\u003e 207971 . lishers service , New York . 23027 Of Parker County , Texas , as \u003cbr\u003e\nof Feb. Terrone ( Charles ) * Brooklyn . Selling 1 . Mar , 31 ; \u003cb\u003eAA\u003c/b\u003e 207976 . specialty \u003cbr\u003e\nproducts by mail . June Of Pecos County , Texas , as of Mar. 1 , 1936 ; \u003cb\u003eAA\u003c/b\u003e&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ohlcWoCv28IC",
+        "etag": "+x6FgR56GSI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ohlcWoCv28IC",
+        "volumeInfo": {
+          "title": "Benefit Series Service, Unemployment Insurance",
+          "authors": [
+            "United States. Bureau of Employment Security"
+          ],
+          "publishedDate": "1950",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UOM:39015081259296"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "categories": [
+            "Law reports, digests, etc"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.2.2.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ohlcWoCv28IC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ohlcWoCv28IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=ohlcWoCv28IC&pg=SA24-PA18&dq=aa&hl=&cd=5&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=ohlcWoCv28IC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ohlcWoCv28IC"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=ohlcWoCv28IC&rdid=book-ohlcWoCv28IC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Benefit_Series_Service_Unemployment_Insu.epub?id=ohlcWoCv28IC&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ohlcWoCv28IC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Bureau of Employment Security. for 1950 decisions ABLE AND AVAILABLE - \u003cbr\u003e\nContinued 315. New work ** N.J . B , SW - 315–1 350. Period of ineligibility Calif . \u003cbr\u003e\nA , \u003cb\u003eAA\u003c/b\u003e - 350–1 360. Personal affairs N.Y. B , \u003cb\u003eAA\u003c/b\u003e - 360_1 365. Prospect of work : \u003cbr\u003e\nLa&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MSctAQAAMAAJ",
+        "etag": "UV6RuIs13t4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MSctAQAAMAAJ",
+        "volumeInfo": {
+          "title": "Journal of Proceedings of the ... Annual Session of the Wisconsin Legislature for the Year ...",
+          "authors": [
+            "Wisconsin. Legislature. Senate"
+          ],
+          "publishedDate": "1877",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UIUC:30112107002914"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "categories": [
+            "Legislative journals"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.2.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=MSctAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=MSctAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=MSctAQAAMAAJ&pg=PA538&dq=aa&hl=&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=MSctAQAAMAAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MSctAQAAMAAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=MSctAQAAMAAJ&rdid=book-MSctAQAAMAAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Journal_of_Proceedings_of_the_Annual_Ses.epub?id=MSctAQAAMAAJ&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "downloadLink": "http://books.google.com/books/download/Journal_of_Proceedings_of_the_Annual_Ses.pdf?id=MSctAQAAMAAJ&hl=&output=pdf&sig=ACfU3U2hc74yQENaNG5o6Gees8c-rKrz3g&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MSctAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "a a a a a a a a ... na n an \u003cb\u003eaa\u003c/b\u003e a a a a a a a a a n a a n a aan a na aan nnn r a n n \u003cbr\u003e\nnaa n n aan n a a ann a a a a a nan na n n \u003cb\u003eaa aa\u003c/b\u003e a a n a a ... a a n n . \u003cb\u003eaa\u003c/b\u003e a \u003cb\u003eaa\u003c/b\u003e a in \u003cbr\u003e\nun nnnnnn ... n a a a na naa n.1 : \u003cb\u003ea a aa\u003c/b\u003e a ... a na n n n n nnnnn ... a a n a an&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "webW-FFdab4C",
+        "etag": "xCCupGSLBXc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/webW-FFdab4C",
+        "volumeInfo": {
+          "title": "Reports",
+          "authors": [
+            "New Hampshire"
+          ],
+          "publishedDate": "1895",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UOM:39015068136251"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "categories": [
+            "New Hampshire"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.3.0.full.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=webW-FFdab4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=webW-FFdab4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=webW-FFdab4C&pg=PA387&dq=aa&hl=&cd=7&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=webW-FFdab4C&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=webW-FFdab4C"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "FREE",
+          "isEbook": true,
+          "buyLink": "https://play.google.com/store/books/details?id=webW-FFdab4C&rdid=book-webW-FFdab4C&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Reports.epub?id=webW-FFdab4C&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=webW-FFdab4C&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "*3ūņIođer qoN_ ox{\u003cb\u003eAA\u003c/b\u003e J9đ 00°08$ : &lt;ł co — : s=+ CN Nos - |11 39 ox{\u003cb\u003eAA\u003c/b\u003e J9d 00°\u003cbr\u003e\n6′Z$ ox{\u003cb\u003eAA\u003c/b\u003e IÐd 00°8Z$ *X{\u003cb\u003eAA\u003c/b\u003e 19d 00&#39;,$ ox{\u003cb\u003eAA\u003c/b\u003e Jođ 00&#39;92$ ox{\u003cb\u003eAA\u003c/b\u003e J9d 00°gŻĘ \u003cbr\u003e\nox{\u003cb\u003eAA\u003c/b\u003e J9đ 00*ÞZ$ *XÍAA Joss 00&#39;8%$ . 3. 2.. *&gt;{\u003cb\u003eAA\u003c/b\u003e Jod 00°ZZ$ 4|. ox{\u003cb\u003eAA\u003c/b\u003e J9ĆI&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "i-p2AgAAQBAJ",
+        "etag": "5jmsWbb10CE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/i-p2AgAAQBAJ",
+        "volumeInfo": {
+          "title": "Aa",
+          "authors": [
+            "Mary Elizabeth Salzmann"
+          ],
+          "publisher": "ABDO Publishing Company",
+          "publishedDate": "2010-09-01",
+          "description": "The letter A is featured in this easy reader about children having fun.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781617869068"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1617869066"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 24,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Nonfiction"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.0.0.preview.1",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=i-p2AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=i-p2AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=i-p2AgAAQBAJ&printsec=frontcover&dq=aa&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=i-p2AgAAQBAJ&dq=aa&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Aa.html?hl=&id=i-p2AgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Aa-sample-pdf.acsm?id=i-p2AgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=i-p2AgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The letter A is featured in this easy reader about children having fun."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "mB06AQAAIAAJ",
+        "etag": "qpVE/xVsCCs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/mB06AQAAIAAJ",
+        "volumeInfo": {
+          "title": "Mathematical Tables of Gamma Z for Complex Argument",
+          "authors": [
+            "A. A. Abramov"
+          ],
+          "publishedDate": "1960",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UCSC:32106002328158"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 331,
+          "printType": "BOOK",
+          "categories": [
+            "Functions of complex variables"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=mB06AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=mB06AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=mB06AQAAIAAJ&q=aa&dq=aa&hl=&cd=9&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=mB06AQAAIAAJ&dq=aa&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Mathematical_Tables_of_Gamma_Z_for_Compl.html?hl=&id=mB06AQAAIAAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=mB06AQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "k-_tAAAAMAAJ",
+        "etag": "sB7PwSmDsCI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/k-_tAAAAMAAJ",
+        "volumeInfo": {
+          "title": "A.A.",
+          "subtitle": "The Story",
+          "authors": [
+            "Ernest Kurtz"
+          ],
+          "publisher": "Harpercollins",
+          "publishedDate": "1988",
+          "description": "Traces the history of Alcoholics Anonymous, examines the organization's philosophy, and explains how they help alcoholics recover",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UOM:39015013080398"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 296,
+          "printType": "BOOK",
+          "categories": [
+            "Political Science"
+          ],
+          "averageRating": 4,
+          "ratingsCount": 1,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=k-_tAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=k-_tAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=k-_tAAAAMAAJ&q=aa&dq=aa&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=k-_tAAAAMAAJ&dq=aa&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/A_A.html?hl=&id=k-_tAAAAMAAJ"
+        },
+        "saleInfo": {
+          "country": "IL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IL",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=k-_tAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Traces the history of Alcoholics Anonymous, examines the organization&#39;s philosophy, and explains how they help alcoholics recover"
+        }
+      }
+    ]
+  }
+  
