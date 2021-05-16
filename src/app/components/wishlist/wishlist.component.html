@@ -1,1 +1,10 @@
-<p>wishlist works!</p>
+<p-listbox 
+[options]="appService.wishList" [(ngModel)]="selectedBook" optionLabel="volumeInfo.title"  >
+    <ng-template let-wishbook pTemplate="item">
+        <div class="wishbook-item" style="display: flex;">
+            <div>{{wishbook.volumeInfo.title}}</div>
+            <p-button icon="pi pi-trash" (click)="remove(wishbook)" styleClass="p-button-text"></p-button>  
+
+        </div>
+    </ng-template>
+</p-listbox>

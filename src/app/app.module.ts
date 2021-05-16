@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { SearchComponent } from './components/search/search.component';
@@ -14,6 +14,12 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
 
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
+import {ListboxModule} from 'primeng/listbox';
+import {DialogModule} from 'primeng/dialog';
+import {TabMenuModule} from 'primeng/tabmenu';
+import {PaginatorModule} from 'primeng/paginator';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +33,13 @@ import {ButtonModule} from 'primeng/button';
     BrowserAnimationsModule,
     InputTextModule,
     FormsModule,
+    ReactiveFormsModule,
     ButtonModule,
-    HttpClientModule
+    HttpClientModule,
+    ListboxModule,
+    DialogModule,
+    TabMenuModule,
+    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

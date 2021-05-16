@@ -1,32 +1,64 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { LocalStorageKey } from 'src/app/enums/local-storage-key.enum';
 import { SearchResponse } from 'src/app/interface/search.res.interface';
+import { AppService } from 'src/app/services/app.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss']
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent implements OnInit,OnDestroy {
 
   username:string = '';
   search:string = '';
-  url:string = 'https://www.googleapis.com/books/v1/volumes?q=';
+  selectedBook = null;
+  books:any[]=[];
+  displayDialog = false;
+  subscription: Subscription;
+  totalRecords;
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private appService: AppService) { }
+
+  ngOnDestroy(): void {
+   this.subscription?.unsubscribe();
+  }
 
   ngOnInit(): void {
+    this.search = this.appService.q;
     this.username = localStorage.getItem(LocalStorageKey.username) || '';
-
+    this.subscription = this.appService.dataStorage.subscribe(res => {
+      this.books = res?.items;
+      this.totalRecords = res?.totalItems;
+    });
   }
 
   onSearch(){
-    this.http.get<any>(`${this.url}${this.search}`).subscribe(
-      (res: SearchResponse) =>{
-        console.log(res)
-      }
-    )
+    if(this.search===''){
+      return;
+    }
+    
+    this.appService.search(this.search, 0);
+  }
+
+  bookClick(){
+    this.displayDialog = true;
+  }
+
+  addToWhishList(){
+    const found =  this.appService.wishList.findIndex(book => book.id ===this.selectedBook.id);
+    if(found === -1){
+      this.appService.wishList.push(this.selectedBook);
+    }
+  }
+
+  paginate($event){
+    console.log($event)
+
+    this.appService.search(this.search, $event.page);
   }
 
 }

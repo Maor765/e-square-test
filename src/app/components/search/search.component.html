@@ -1,10 +1,46 @@
 <p>Welcome {{username}} !!</p>
 
-<div style="display: flex;">
+<div class="p-fluid p-grid" style="padding: 10px;">
 
-    <input type="text" pInputText [(ngModel)]="search"> 
-    <!-- <span class="p-ml-2">{{value1}}</span> -->
-    
-    <button pButton type="button" label="Search" (click)="onSearch()" [disabled]="search==='' "></button>
-    
+    <div class="p-field p-col-12 p-md-4" [style]="{'width':'15rem'}">
+        <span class="p-float-label">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="search" (input)="onSearch()"> 
+            <label for="inputtext">search</label>
+        </span>
+    </div>
+
+    <div class="p-col-12" *ngIf="books">
+        <p-listbox [options]="books" [(ngModel)]="selectedBook" optionLabel="volumeInfo.title"  (onClick)="bookClick()"></p-listbox>
+    </div>
+
+    <p-paginator [rows]="20" [totalRecords]="totalRecords" (onPageChange)="paginate($event)"></p-paginator>
+
 </div>
+
+<p-dialog *ngIf="selectedBook" header="Header" [(visible)]="displayDialog" [style]="{width: '50vw'}" [baseZIndex]="10000">
+
+    <div class="p-grid">
+        <div class="p-col-6">
+            <h5>Published Date</h5>
+            <input  type="text" pInputText [disabled]="true"   [value]="selectedBook.volumeInfo.publishedDate"/>
+        </div>
+        <div class="p-col-6">
+            <h5>Author</h5>
+            <input  type="text" pInputText [disabled]="true"  [value]="selectedBook.volumeInfo.authors ? selectedBook.volumeInfo.authors.join() : 'None'"/>
+        </div>
+        <div class="p-col-6">
+            <h5>Print Type</h5>
+            <input  type="text" pInputText [disabled]="true"  [value]="selectedBook.volumeInfo.printType"/>
+        </div>
+        <div class="p-col-6">
+            <h5>Content Version</h5>
+            <input  type="text" pInputText [disabled]="true"  [value]="selectedBook.volumeInfo.contentVersion"/>
+        </div>
+    </div>
+    
+    <ng-template pTemplate="footer">
+        <p-button icon="pi pi-check" (click)="addToWhishList();displayDialog=false" label="Add To WishList" styleClass="p-button-text"></p-button>  
+
+        <p-button icon="pi pi-close" (click)="displayDialog=false" label="Cancel" styleClass="p-button-text"></p-button>
+    </ng-template>
+</p-dialog>

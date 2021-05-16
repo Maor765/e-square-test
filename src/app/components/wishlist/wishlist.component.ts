@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from 'src/app/services/app.service';
 
 @Component({
   selector: 'app-wishlist',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WishlistComponent implements OnInit {
 
-  constructor() { }
+  selectedBook;
+
+  constructor(
+    public appService: AppService) { }
 
   ngOnInit(): void {
+  }
+
+  remove(wishbook){
+    const found =  this.appService.wishList.findIndex(book => book.id ===wishbook.id);
+    this.appService.wishList.splice(found, 1);
+
   }
 
 }

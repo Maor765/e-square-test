@@ -1,9 +1,10 @@
 <h5>Welcom</h5>
 <div>
+<form [formGroup]="welcomeForm">
 
-    <input type="text" pInputText [(ngModel)]="value1"> 
-    <!-- <span class="p-ml-2">{{value1}}</span> -->
+    <input type="text" pInputText formControlName="username"> 
     
-    <button pButton type="button" label="Login" (click)="login()" [disabled]="value1==='' "></button>
+    <button pButton type="button" label="Login" (click)="login()" [disabled]="!welcomeForm.valid"></button>
+</form>
     
 </div>
