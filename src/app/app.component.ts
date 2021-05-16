@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'e-square-test';
+  value1!: string;
+
 }
