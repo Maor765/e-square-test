@@ -15,7 +15,7 @@ export class WelcomeComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private loginService:LoginService  ,
+    private loginService:LoginService,
     private fb: FormBuilder) {}
 
   ngOnInit(): void {
@@ -24,11 +24,9 @@ export class WelcomeComponent implements OnInit {
     });
   }
 
-
   login(){
     localStorage.setItem(LocalStorageKey.username, this.welcomeForm.value.username);
     this.loginService.isLogin.next(true);
     this.router.navigate(['./search']);
-
   }
 }

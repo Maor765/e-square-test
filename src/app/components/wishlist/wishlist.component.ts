@@ -16,8 +16,8 @@ export class WishlistComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  remove(wishbook){
-    const found =  this.appService.wishList.findIndex(book => book.id ===wishbook.id);
+  remove(wishBook){
+    const found =  this.appService.wishList.findIndex(book => book.id ===wishBook.id);
     this.appService.wishList.splice(found, 1);
 
   }

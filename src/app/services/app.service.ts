@@ -23,7 +23,7 @@ export class AppService {
     this.q=search;
     this.http.get<any>(`${this.url}${search}&startIndex=${startIndex}`).subscribe(
       (res: SearchResponse) =>{
-        console.log(res)
+        // console.log(res)
         this.dataStorage.next(res);
       }
     )

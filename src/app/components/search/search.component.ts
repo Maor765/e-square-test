@@ -1,7 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { LocalStorageKey } from 'src/app/enums/local-storage-key.enum';
-import { SearchResponse } from 'src/app/interface/search.res.interface';
 import { AppService } from 'src/app/services/app.service';
 import { Subscription } from 'rxjs';
 
@@ -12,13 +10,13 @@ import { Subscription } from 'rxjs';
 })
 export class SearchComponent implements OnInit,OnDestroy {
 
-  username:string = '';
-  search:string = '';
+  username:string;
+  search:string;
   selectedBook = null;
   books:any[]=[];
   displayDialog = false;
   subscription: Subscription;
-  totalRecords;
+  totalRecords: number;
 
   constructor(
     private appService: AppService) { }
@@ -56,8 +54,7 @@ export class SearchComponent implements OnInit,OnDestroy {
   }
 
   paginate($event){
-    console.log($event)
-
+    // console.log($event)
     this.appService.search(this.search, $event.page);
   }
 
